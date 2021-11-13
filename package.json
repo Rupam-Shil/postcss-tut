@@ -1,0 +1,31 @@
+{
+	"name": "postcss-tut",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"postcss:watch": "postcss ./src/style.css -d public --watch",
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Rupam-Shil/postcss-tut.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Rupam-Shil/postcss-tut/issues"
+	},
+	"homepage": "https://github.com/Rupam-Shil/postcss-tut#readme",
+	"devDependencies": {
+		"cssnano": "^5.0.10",
+		"postcss": "^8.3.11",
+		"postcss-cli": "^9.0.2",
+		"postcss-import": "^14.0.2",
+		"postcss-preset-env": "^6.7.0"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
